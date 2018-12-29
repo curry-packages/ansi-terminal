@@ -1,0 +1,21 @@
+{
+    "name": "ansi-terminal",
+    "version": "0.0.1",
+    "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
+    "synopsis": "Library supporting formatted output on terminals",
+    "category": [ "System", "User Interface" ],
+    "license": "BSD-3-Clause",
+    "licenseFile": "LICENSE",
+    "dependencies": {
+        "base"    : ">= 1.0.0, < 2.0.0"
+    },
+    "compilerCompatibility": {
+        "pakcs": ">= 2.0.0",
+        "kics2": ">= 2.0.0"
+    },
+    "exportedModules": [ "System.Console.ANSI.Codes" ],
+    "source": {
+      "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/ansi-terminal.git",
+      "tag": "$version"
+    }
+}
