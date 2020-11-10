@@ -5,7 +5,7 @@
 --- http://en.wikipedia.org/wiki/ANSI_escape_code
 ---
 --- @author Sebastian Fischer, Bjoern Peemoeller
---- @version December 2018
+--- @version November 2020
 ------------------------------------------------------------------------------
 
 module System.Console.ANSI.Codes
@@ -58,7 +58,7 @@ module System.Console.ANSI.Codes
   , bgDefault
   ) where
 
-import List (isSuffixOf)
+import Data.List ( isSuffixOf )
 
 -- -----------------------------------------------------------------------------
 -- Cursor movement
