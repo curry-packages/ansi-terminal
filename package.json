@@ -11,7 +11,7 @@
     },
     "exportedModules": [ "System.Console.ANSI.Codes" ],
     "source": {
-      "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/ansi-terminal.git",
+      "git": "https://github.com/curry-packages/ansi-terminal.git",
       "tag": "$version"
     }
 }
